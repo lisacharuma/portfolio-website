@@ -2,26 +2,29 @@
 <html>
 	<head>
 		<title> My Portfolio Webpage </title>
+		<link rel="stylesheet" href="styles.css">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
 	</head>
 	<body>
-		<div>
+		<div class = "container">
+		<div class = "intro">
 			<img src="https://via.placeholder.com/150"/>
 			<h1> Lisa Charuma </h1>
 			<h3> Aspiring Software Engineer </h3>
 			<p> The greater the demand, the greater the sacrifice </p>
 		</div>
-		<div>
-			<div>
+		<div class = "about-grid">
+			<div class = "i-am">
 				<h2> I am </h2>
-				<ul>
+				<ul class = "about-list">
 					<li> an aspirig software engineer </li>
 					<li> an advocate for girl child empowerment </li>
 					<li> ... </li>
 				</ul>
 			</div>
-			<div>
+			<div class = "also">
 				<h2> Besides being a techie, I am also </h2>
-				<ul>
+				<ul class = "about-list">
 					<li> a makeup artist </li>
 					<li> a hairdresser </li>
 					<li> a dressmaker </li>
@@ -29,15 +32,18 @@
 			</div>
 		</div>
 		<div>
-			<h3> My Projects </h3>
-			<img src="https://via.placeholder.com/300"/>
-			<img src="https://via.placeholder.com/300"/>
-			<img src="https://via.placeholder.com/300"/>
-			<img src="https://via.placeholder.com/300"/>
+			<h3 class = "projects-heading"> My Projects </h3>
+			<div class = "projects-grid">
+				<img class = "project-image" src="https://via.placeholder.com/300"/>
+				<img class = "project-image" src="https://via.placeholder.com/300"/>
+				<img class = "project-image" src="https://via.placeholder.com/300"/>
+				<img class = "project-image" src="https://via.placeholder.com/300"/>
+			</div>
 		</div>
-		<div>
+		<div class = "links-and-contact">
+			<div class = "links">
 			<h3> Links </h3>
-			<ul>
+			<ul class = "links-list">
 				<li> 
 					<a href="https://github.com/lisacharuma"> Github </a>
 				</li>
@@ -45,6 +51,7 @@
 					<a href="https://twitter.com/lisacharuma"> Twitter </a>
 				</li>
 			</ul>
+			</div>
 		</div>
 		<div>
 			<form action="#">
@@ -56,6 +63,7 @@
 				</label>
 				<input type="submit" valid="Send Message"/>
 			</form>
+		</div>
 		</div>
 	</body>
 
